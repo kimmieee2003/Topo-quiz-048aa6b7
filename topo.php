@@ -1,5 +1,5 @@
 <?php
-$hoofdstad = array("Japan" => "Tokyo", "Mexico" => "Mexico-city", "USA" => "Washington D.C.",);
+$hoofdstad = array("Japan" => "Tokyo", "Mexico" => "Mexico-city", "USA" => "Washington D.C.");
 foreach($hoofdstad as $land => $boo){
     echo "wat is de hoofdstad van " .$land.PHP_EOL; 
     $stad = readline();
